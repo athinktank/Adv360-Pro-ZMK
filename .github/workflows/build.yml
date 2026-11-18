@@ -4,6 +4,7 @@ name: Build
 
 jobs:
   build:
+    if: false  # Legacy build without Studio; firmware-clique is the one we flash
     runs-on: ubuntu-latest
     container:
       image: zmkfirmware/zmk-build-arm:stable
