@@ -77,12 +77,12 @@ Follow the programming instruction on page 8 of the [Quick Start Guide](https://
 
 1. Extract the firmwares from the archive downloaded from the GitHub build job (If using the cloud builder) or the firmware folder (If building locally).
 1. Connect the left side keyboard to USB.
-1. Press Mod+macro1 to put the left side into bootloader mode; it should attach to your computer as a USB drive.
+1. Hold Mod and press macro1 to put the left side into bootloader mode; it should attach to your computer as a USB drive named `ADV360PRO`. Mod is the top key of the right inner column, left of `6`. macro1 is the middle key of the left inner column, right of `T`.
 1. Copy `left.uf2` to the USB drive and it will disconnect.
 1. Power off both keyboards (by unplugging them and making sure the switches are off).
 1. Turn on the left side keyboard with the switch.
 1. Connect the right side keyboard to USB to power it on.
-1. Press Mod+macro3 to put the right side into bootloader mode to attach it as a USB drive.
+1. Hold Mod and press macro3 to put the right side into bootloader mode to attach it as a USB drive. macro3 is the middle key of the right inner column, left of `Y`, directly below Mod.
 1. Copy `right.uf2` to the mounted drive.
 1. Unplug the right side keyboard and turn it back on.
 1. Enjoy!
