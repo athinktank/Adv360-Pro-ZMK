@@ -50,11 +50,9 @@ Fallback: double-press the half's reset button (User Manual section 2.7).
 
 ## Keymap apps (ZMK Studio)
 
-- The firmware has ZMK Studio enabled. Two web apps talk to it:
-  - ZMK Studio: https://zmk.studio/ (generic ZMK app).
-  - Kinesis Clique: https://clique.kinesis-ergo.com/ (Kinesis-branded
-    Studio).
-  Either works. Use Chrome or Edge (needs Web Serial) and USB on the left half.
+- Use Kinesis Clique: https://clique.kinesis-ergo.com/ (Kinesis-branded ZMK
+  Studio). Use Chrome or Edge (needs Web Serial) and USB on the left half.
+  ZMK Studio at https://zmk.studio/ also works but isn't the one we use.
 - Edits made in the app are saved on the keyboard and override the compiled
   keymap. Flashing does not clear them. After flashing, unlock and use the
   app's restore-stock-settings option, or the new build won't take effect.
