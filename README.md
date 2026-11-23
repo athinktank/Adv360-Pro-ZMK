@@ -85,6 +85,7 @@ Follow the programming instruction on page 8 of the [Quick Start Guide](https://
 1. Hold Mod and press macro3 to put the right side into bootloader mode to attach it as a USB drive. macro3 is the middle key of the right inner column, left of `Y`, directly below Mod.
 1. Copy `right.uf2` to the mounted drive.
 1. Unplug the right side keyboard and turn it back on.
+1. Open Clique at https://clique.kinesis-ergo.com/, unlock with Mod and the key left of `A`, and click Restore Stock Settings. Edits made in Clique override flashed firmware until you do.
 1. Enjoy!
 
 > Note: There are also physical reset buttons on both keyboards which can be used to enter and exit the bootloader mode. Their location is described in section 2.7 on page 9 in the [User Manual](https://kinesis-ergo.com/wp-content/uploads/Advantage360-ZMK-KB360-PRO-Users-Manual-v3-10-23.pdf) and use is described in section 5.9 on page 14. 

@@ -18,7 +18,7 @@ Read this first; update it when anything below changes.
 
 ## Current layout choices (Base and Keypad layers)
 
-- Caps Lock key position (left of `A`): Caps Lock. Fn layer has Caps there too.
+- Left of `A`: Caps Lock. Fn layer: Fn + Escape (left of Left Arrow) also sends Caps Lock.
 - Bottom row, left of Left Arrow: Escape.
 - Thumbs: Left Alt (Option), Left GUI (Command) on the left; Right GUI,
   Right Alt on the right.
@@ -34,7 +34,7 @@ Read this first; update it when anything below changes.
 |---|---|
 | Left half bootloader | Hold Mod, press macro1 |
 | Right half bootloader | Hold Mod, press macro3 |
-| Unlock for Studio/Clique | Hold Mod, press the key left of `A` |
+| Unlock for Clique | Hold Mod, press the key left of `A` |
 
 Fallback: double-press the half's reset button (User Manual section 2.7).
 
@@ -46,13 +46,13 @@ Fallback: double-press the half's reset button (User Manual section 2.7).
 4. Plug in the right half. Mod + macro3.
 5. `cp firmware-clique/*-right.uf2 /Volumes/ADV360PRO/`
 6. Unplug the right half and turn it on.
-7. In the keymap app, restore stock settings (see below).
+7. In Clique, unlock (Mod + key left of `A`) and click Restore Stock Settings.
 
-## Keymap apps (ZMK Studio)
+## Keymap app (Clique)
 
 - Use Kinesis Clique: https://clique.kinesis-ergo.com/ (Kinesis-branded ZMK
   Studio). Use Chrome or Edge (needs Web Serial) and USB on the left half.
   ZMK Studio at https://zmk.studio/ also works but isn't the one we use.
 - Edits made in the app are saved on the keyboard and override the compiled
   keymap. Flashing does not clear them. After flashing, unlock and use the
-  app's restore-stock-settings option, or the new build won't take effect.
+  click Restore Stock Settings in Clique, or the new build won't take effect.
